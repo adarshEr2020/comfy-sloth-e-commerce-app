@@ -4,9 +4,11 @@ const items = [
   { id: 1, name: "john" },
   { id: 2, name: "susan" },
 ];
-exports.hendler = async function (event, context) {
+const  hendler= (event, context) => {
   return {
     statusCode: 200,
     body: "Hello World",
   };
-};
+}
+
+export {hendler};
