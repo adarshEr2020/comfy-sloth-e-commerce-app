@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLevelDownAlt } from "react-icons/fa";
+// import { FaLevelDownAlt } from "react-icons/fa";
 import { useFilterContext } from "../context/filter_context";
 import GridView from "./GridView";
 import ListView from "./ListView";

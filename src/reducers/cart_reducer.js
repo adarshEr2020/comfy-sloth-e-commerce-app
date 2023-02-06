@@ -25,7 +25,7 @@ const cart_reducer = (state, action) => {
         }
       });
 
-      console.log(tempCart);
+      // console.log(tempCart);
       return { ...state, cart: tempCart };
     } else {
       const newItem = {
@@ -67,10 +67,11 @@ const cart_reducer = (state, action) => {
           }
           return { ...state, amount: newAmount };
         }
+        return tempCart;
       }
       return item;
     });
-    console.log(tempCart);
+    // console.log(tempCart);
     return { ...state, cart: tempCart };
   }
   if (action.type === COUNT_CART_TOTALS) {

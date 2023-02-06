@@ -13,6 +13,7 @@ export const UserProvider = ({ children }) => {
     } else {
       setMyUser(false);
     }
+    // eslint-disable-next-line
   }, [isAuthenticated]);
 
   return (
