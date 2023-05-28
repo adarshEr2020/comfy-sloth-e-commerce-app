@@ -1,5 +1,7 @@
 ## Notes
 
+See the application here...
+https://comfy-sloth-ecom-app.netlify.app/
 #### Older React Version
 
 ```
