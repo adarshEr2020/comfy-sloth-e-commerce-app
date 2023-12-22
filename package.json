@@ -9,13 +9,13 @@
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.1.2",
     "@testing-library/user-event": "^12.2.2",
-    "axios": "^0.21.1",
+    "axios": "^1.6.2",
     "dotenv": "^8.2.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-icons": "^3.11.0",
     "react-router-dom": "^6.8.0",
-    "react-scripts": "4.0.0",
+    "react-scripts": "^5.0.1",
     "stripe": "^8.130.0",
     "styled-components": "^5.2.1",
     "web-vitals": "^0.2.4"
@@ -47,6 +47,6 @@
     ]
   },
   "devDependencies": {
-    "netlify-cli": "^3.39.4"
+    "netlify-cli": "^17.10.1"
   }
 }

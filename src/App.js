@@ -12,8 +12,10 @@ import {
   SingleProduct,
   PrivateRoute,
 } from "./pages";
+import AuthWrapper from "./pages/AuthWrapper";
 function App() {
   return (
+    <AuthWrapper>
     <Router>
       <Navbar />
       <Sidebar />
@@ -35,6 +37,7 @@ function App() {
       </Routes>
       <Footer />
     </Router>
+    </AuthWrapper>
   );
 }
 
